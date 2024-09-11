@@ -18,7 +18,7 @@
     display: grid;
     /* grid-template-columns: 30% 70%; */
     grid-template-columns: 82px 4fr;
-    grid-template-rows: 35px 779px 1000px;
+    grid-template-rows: 38px 779px 1000px;
 }
 .LOGO{
     background-color: var(--ADC1);
@@ -58,4 +58,3 @@
 @media (max-width: 412px) {
     
 } */
- 
