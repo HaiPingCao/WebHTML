@@ -1,0 +1,60 @@
+:root{
+    --FontColor:#ffffff;
+    --BackgroundColor:#191414;
+    --ADC1:#1DB954;
+    --ADC2:#ff9900;
+    --ADC3:#00b7ff;
+}
+
+*{
+    background-color: var(--BackgroundColor);
+    color: var(--FontColor);
+
+    padding: 0;
+    margin: 0;
+}
+
+.CONTAINER{
+    display: grid;
+    /* grid-template-columns: 30% 70%; */
+    grid-template-columns: 82px 4fr;
+    grid-template-rows: 35px 779px 1000px;
+}
+.LOGO{
+    background-color: var(--ADC1);
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.NAV-BAR{
+    background-color: var(--ADC3);
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.PLAYLIST{
+    background-color: var(--ADC2);
+    font-weight: 800;
+}
+.CONTENT{
+
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    /* overflow: scroll; */
+}
+
+.MEDIA{
+    background-color: var(--ADC1);
+    grid-column: 1/3;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+/* 
+@media (max-width: 412px) {
+    
+} */
